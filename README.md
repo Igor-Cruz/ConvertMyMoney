@@ -59,6 +59,8 @@ npm install --save-dev jest
 - JavaScript
 - NodeJS
 - Express
+- -HTML
+- CSS
 
 
 
