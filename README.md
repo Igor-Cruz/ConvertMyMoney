@@ -18,11 +18,9 @@
 
 ### ✨ [Demo](https://convert-my-money-igor-cruz.vercel.app/)
 
-##Tecnologias 
-EJS
-JavaScript
-NodeJS
-Express
+ 
+
+
 
 ## Install
 
@@ -30,11 +28,6 @@ Express
 npm install express ejs
 ```
 
-## Usage
-
-```sh
- 
-```
 
 ## Run tests
 
@@ -46,8 +39,8 @@ npm install --save-dev jest
 
 ## Construído com:
 
-* [ExpreesJS](https://expressjs.com/pt-br/) -The React Framework.
-* [Figma](https://figma.com/) - Online prototyping tool.
+* [ExpreesJS](https://expressjs.com/pt-br/) 
+* [Figma](https://figma.com/) 
 
 
 ## Author
@@ -58,18 +51,22 @@ npm install --save-dev jest
 * Github: [@Igor-Cruz](https://github.com/Igor-Cruz)
 * LinkedIn: [@Igor-Cruz-ti](https://linkedin.com/in/Igor-Cruz-ti)
 
-## 🤝 Contributing
+## Tecnologias
+- EJS
+- JavaScript
+- NodeJS
+- Express
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Igor-Cruz/ConvertMyMoney/issues). You can also take a look at the [contributing guide](https://github.com/Igor-Cruz/ConvertMyMoney/blob/master/CONTRIBUTING.md).
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
 Copyright © 2021 [Igor Cruz](https://github.com/Igor-Cruz).<br />
 This project is [MTI](https://github.com/Igor-Cruz/ConvertMyMoney/blob/master/LICENSE) licensed.
+
+## Agradecimentos
+
+* Este projeto foi construído durante a Semana Fullstack Master do [DevPleno](https://devpleno.com) no curso formção full stack master.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
