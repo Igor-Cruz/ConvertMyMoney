@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  background-color: rgb(189, 186, 186);
+}
+
+h1 img{
+  width: 489px;
+  margin: 20px;
+
+}
+
+input{
+  border: 1px solid black;
+  background: rgb(80, 77, 76);
+  font-size: 20px;
+  padding: 10px;
+  margin: 4px;
+
+}
+
+input::placeholder{
+  color: rgb(51, 6, 93);
+  ;
+}
+
+button{
+  border: 1px solid black;
+  background: rgb(80, 77, 76);
+  color: rgb(51, 6, 93);
+  font-size: 20px;
+  padding: 10px;
+}
+
+button:hover{
+  color: white;
+  background: rgb(51, 6, 93);
+  border: 1px solid black;
+}
+
+.result{
+  padding: 10px;
+  border: 1px solid rgb(148, 146, 145);
+  background: rgb(221, 217, 211);
+}
