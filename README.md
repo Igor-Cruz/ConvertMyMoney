@@ -18,10 +18,16 @@
 
 ### ✨ [Demo](https://convert-my-money-igor-cruz.vercel.app/)
 
+##Tecnologias 
+EJS
+JavaScript
+NodeJS
+Express
+
 ## Install
 
 ```sh
-npm install
+npm install express ejs
 ```
 
 ## Usage
@@ -35,6 +41,14 @@ npm install
 ```sh
 npm install --save-dev jest
 ```
+
+
+
+## Construído com:
+
+* [ExpreesJS](https://expressjs.com/pt-br/) -The React Framework.
+* [Figma](https://figma.com/) - Online prototyping tool.
+
 
 ## Author
 
