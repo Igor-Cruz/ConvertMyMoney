@@ -1,4 +1,6 @@
 <h1 align="center">Welcome to Convert My Money 👋</h1>
+
+<h2>Projeto desenvolvido para realizar conversões de moedas</h2>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Igor-Cruz/ConvertMyMoney#readme" target="_blank">
@@ -25,7 +27,8 @@
 ## Install
 
 ```sh
-npm install express ejs
+npm install 
+npm start
 ```
 
 
