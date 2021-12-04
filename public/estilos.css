@@ -1,6 +1,8 @@
 body{
   text-align: center;
   background-color: rgb(189, 186, 186);
+  margin: 0;
+  padding: 0;
 }
 
 h1 img{
@@ -41,4 +43,23 @@ button:hover{
   padding: 10px;
   border: 1px solid rgb(148, 146, 145);
   background: rgb(221, 217, 211);
+}
+
+footer{
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: chartreuse;
+  color: white;
+  text-align: center;
+  
+}
+  
+
+
+footer a{
+  color: white;
+  
+ 
 }
