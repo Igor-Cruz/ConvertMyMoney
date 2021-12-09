@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1638976178118" clover="3.2.0">
-  <project timestamp="1638976178119" name="All files">
-    <metrics statements="23" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4" elements="30" coveredelements="18" complexity="0" loc="23" ncloc="23" packages="1" files="2" classes="2"/>
+<coverage generated="1639091799346" clover="3.2.0">
+  <project timestamp="1639091799347" name="All files">
+    <metrics statements="23" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="31" coveredelements="30" complexity="0" loc="23" ncloc="23" packages="1" files="2" classes="2"/>
     <file name="api.bcb.js" path="C:\Users\Cruz\Documents\Workspace\DevPleno\ConvertMyMoney\lib\api.bcb.js">
-      <metrics statements="18" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -11,17 +11,17 @@
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="0" type="stmt"/>
-      <line num="16" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="20" count="0" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
     </file>
     <file name="convert.js" path="C:\Users\Cruz\Documents\Workspace\DevPleno\ConvertMyMoney\lib\convert.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

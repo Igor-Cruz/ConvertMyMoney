@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">52.38% </span>
+                <span class="strong">95.45% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/21</span>
+                <span class='fraction'>21/22</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">40% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/5</span>
+                <span class='fraction'>6/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">94.44% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>9/18</span>
+                <span class='fraction'>17/18</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -97,7 +97,13 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -106,26 +112,32 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -135,22 +147,23 @@
 const axios = require('axios')
 const { application } = require('express')
 &nbsp;
-const getUrl = <span class="fstat-no" title="function not covered" >da</span>ta =&gt; <span class="cstat-no" title="statement not covered" >`https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao=%27${data}%27&amp;$top=100&amp;$format=json&amp;$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao`</span>
+const getUrl = data =&gt; `https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao=%27${data}%27&amp;$top=100&amp;$format=json&amp;$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao`
 &nbsp;
 const getCotacaoAPI = url =&gt; axios.get(url)
 const extractCotacao = res =&gt; res.data.value[0].cotacaoVenda
-const getToday = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
-  const today = <span class="cstat-no" title="statement not covered" >new Date()</span>
-<span class="cstat-no" title="statement not covered" >  return (today.getMonth() + 1) + '-' + today.getDate() + '-' + today.getFullYear()</span>
+const getToday = () =&gt; {
+  const today = new Date()
+  return (today.getMonth() + 1) + '-' + today.getDate() + '-' + today.getFullYear()
 &nbsp;
 }
-const getCotacao = <span class="fstat-no" title="function not covered" >as</span>ync () =&gt; {
-<span class="cstat-no" title="statement not covered" >  try {</span>
-    const today = <span class="cstat-no" title="statement not covered" >getToday()</span>
-    const url = <span class="cstat-no" title="statement not covered" >getUrl(today)</span>
-    const res = <span class="cstat-no" title="statement not covered" >await getCotacaoAPI(url)</span>
-    const cotacao = <span class="cstat-no" title="statement not covered" >extractCotacao(res)</span>
-<span class="cstat-no" title="statement not covered" >    return cotacao</span>
+const getCotacao = ({ getToday, getUrl, extractCotacao, getCotacaoAPI }) =&gt; async () =&gt; {
+  try {
+&nbsp;
+    const today = getToday()
+    const url = getUrl(today)
+    const res = await getCotacaoAPI(url)
+    const cotacao = extractCotacao(res)
+    return cotacao
   } catch (err) {
 <span class="cstat-no" title="statement not covered" >    return ''</span>
   }
@@ -161,8 +174,13 @@ const getCotacao = <span class="fstat-no" title="function not covered" >as</span
 &nbsp;
 module.exports = {
   getCotacaoAPI,
-  getCotacao,
-  extractCotacao
+  getCotacao: getCotacao({ getToday, getUrl, getCotacaoAPI, extractCotacao }),
+  extractCotacao,
+  getToday,
+  getUrl,
+  pure: {
+    getCotacao
+  }
 }
 &nbsp;
 &nbsp;</pre></td></tr></table></pre>
@@ -172,7 +190,7 @@ module.exports = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener">istanbul</a>
-                at Wed Dec 08 2021 12:09:37 GMT-0300 (Horário Padrão de Brasília)
+                at Thu Dec 09 2021 20:16:39 GMT-0300 (Horário Padrão de Brasília)
             </div>
         </div>
         <script src="prettify.js"></script>
